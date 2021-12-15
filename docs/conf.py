@@ -7,7 +7,7 @@ project = "nextcord-ext-menus"
 copyright = "2021 Nextcord. 2020-2021 Danny (Rapptz)"
 author = "Nextcord"
 
-sys.path.insert(0, os.path.abspath(".."))
+sys.path.insert(0, os.path.abspath("../src"))
 sys.path.append(os.path.abspath("extensions"))
 
 _version_regex = r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]'
